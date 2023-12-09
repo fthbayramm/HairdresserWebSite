@@ -1,0 +1,108 @@
+*{
+   margin:0;
+   padding:0;
+}
+
+.container{
+    background:url(arka3.jpg);
+    height:100vh;
+    background-size:100% 100% ;
+}
+
+.container .navbar{
+    width:100%;
+    height:150px;
+    background:rgba(3, 4, 4, 0.851)
+}
+
+.navbar .logo{
+    display:inline-block;
+    margin-left:100px;
+    margin-top:30px ;
+}
+
+.navbar .logo a{
+    text-decoration:none;
+    font-size:40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: coral;
+}
+
+.navbar ul{
+    float:right;
+    margin-right:20px ;
+}
+
+.navbar ul li{
+    list-style:none;
+    display:inline-block;
+    margin:0 25px ;
+    line-height:95px;
+}
+
+.navbar ul li a{
+    color:white;
+    text-decoration:none;
+    font-size:20px;
+    padding:6px 13px;
+    font-family:roboto;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background:#ff6e00;
+
+
+}
+.container .center{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-family: sans-serif;
+    user-select:none;
+}
+
+.center h1{
+    color:black;
+    font-size:40px;
+    font-weight: bold;
+    width:900px;
+    text-align: center;
+}
+
+.center h2{
+    color:#ff6e00;
+    font-size:20px ;
+    font-weight:bold;
+    width:885px;
+    margin-top:10px;
+    text-align: center;
+    
+}
+table {
+    width:100%
+
+}
+p {
+    color: orange;
+    text-align: center;
+    font-size: 30px;
+    
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+tr{
+    color: darkblue;
+    font-size: 35px;
+}
+div {
+    text-align: center;
+}
+h6{
+    font-size: 60px;
+    text-align: center;
+    color: ;
+}
